@@ -1,0 +1,15 @@
+# GA2016 
+
+* [../](..)
+* [10.00-11.00 OpenPEPPOL F2F GA7 TICC.pdf](10.00-11.00%20OpenPEPPOL%20F2F%20GA7%20TICC.pdf)
+* [11.00-11.15 PoACC - Achievements 2015 ^0 work plan 2016.pdf](11.00-11.15%20PoACC%20-%20Achievements%202015%20^0%20work%20plan%202016.pdf)
+* [11.15-11.45 European Norm (EN) for e-invoicing.pdf](11.15-11.45%20European%20Norm%20(EN)%20for%20e-invoicing.pdf)
+* [11.45-12.30 PEPPOL Directory.pdf](11.45-12.30%20PEPPOL%20Directory.pdf)
+* [2016-01-14 OpenPEPPOL PreACC Challenges (002).pdf](2016-01-14%20OpenPEPPOL%20PreACC%20Challenges%20(002).pdf)
+* [20160310 OpenPEPPOL7th GA PRACC_General (002).pdf](20160310%20OpenPEPPOL7th%20GA%20PRACC_General%20(002).pdf)
+* [20160310 OpenPEPPOL 7th GA version 103.pdf](20160310%20OpenPEPPOL%207th%20GA%20version%20103.pdf)
+* [7th OpenPEPPOL General Assembly Agenda_final for print.pdf](7th%20OpenPEPPOL%20General%20Assembly%20Agenda_final%20for%20print.pdf)
+* [Attendee list General Assembly March 2016_web.pdf](Attendee%20list%20General%20Assembly%20March%202016_web.pdf)
+* [GA presentation and European Norm (EN) for e-invoicing.zip](GA%20presentation%20and%20European%20Norm%20(EN)%20for%20e-invoicing.zip)
+* [PoACC and TICC meeting March 10th_ Agenda v1.pdf](PoACC%20and%20TICC%20meeting%20March%2010th_%20Agenda%20v1.pdf)
+* [PreACC and TICC meeting March 10th_ Agenda 1.pdf](PreACC%20and%20TICC%20meeting%20March%2010th_%20Agenda%201.pdf)

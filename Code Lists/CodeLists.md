@@ -8,7 +8,7 @@ This folder contains the PEPPOL code lists for:
 
 ## Version history
 
-* v2 - work in progress
+* v2 - 2018-05-04
     * Deprecated old document type identifiers:
         * PEPPOL Billing profile V1
         * PEPPOL Catalogue profile V1

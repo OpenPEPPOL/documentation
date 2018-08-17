@@ -9,9 +9,10 @@ This folder contains the PEPPOL code lists for:
 ## Version history
 
 * v3 - work in progress
-    * Add new document type identifiers according to [TICC-45](https://openpeppol.atlassian.net/browse/TICC-45)
+    * Added new document type identifiers according to [TICC-45](https://openpeppol.atlassian.net/browse/TICC-45)
     * Fixed a typo in the `OrderResponse` document type of "PEPPOL Ordering profile V1"
-    * Added new participant identifier scheme `9958` with ID `DE:LID` - German Leitweg ID 
+    * Added participant identifier schemes:
+        * 9958 - DE:LID - German Leitweg ID
 * v2 - 2018-05-04
     * Deprecated old document type identifiers:
         * PEPPOL Billing profile V1

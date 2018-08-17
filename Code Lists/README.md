@@ -12,6 +12,7 @@ This folder contains the PEPPOL code lists for:
     * Added new document type identifiers according to [TICC-45](https://openpeppol.atlassian.net/browse/TICC-45)
     * Fixed a typo in the `OrderResponse` document type of "PEPPOL Ordering profile V1"
     * Added participant identifier schemes:
+        * 0193 - UBLBE - UBL.BE Party Identifier
         * 9958 - DE:LID - German Leitweg ID
 * v2 - 2018-05-04
     * Deprecated old document type identifiers:

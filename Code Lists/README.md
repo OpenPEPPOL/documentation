@@ -9,7 +9,9 @@ This folder contains the PEPPOL code lists for:
 ## Version history
 
 * v3 - work in progress
-    * Added new document type identifiers according to [TICC-45](https://openpeppol.atlassian.net/browse/TICC-45)
+    * Added new document type identifiers 
+        * according to [TICC-45](https://openpeppol.atlassian.net/browse/TICC-45)
+        * according to [TICC-49](https://openpeppol.atlassian.net/browse/TICC-49) - PEPPOL BIS Billing V3 with CII binding
     * Fixed a typo in the `OrderResponse` document type of "PEPPOL Ordering profile V1"
     * Added participant identifier schemes:
         * 0193 - UBLBE - UBL.BE Party Identifier

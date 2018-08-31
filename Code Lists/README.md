@@ -9,13 +9,20 @@ This folder contains the PEPPOL code lists for:
 ## Version history
 
 * v3 - work in progress
-    * Added new document type identifiers 
-        * according to [TICC-45](https://openpeppol.atlassian.net/browse/TICC-45)
-        * according to [TICC-49](https://openpeppol.atlassian.net/browse/TICC-49) - PEPPOL BIS Billing V3 with CII binding
-    * Fixed a typo in the `OrderResponse` document type of "PEPPOL Ordering profile V1"
-    * Added participant identifier schemes:
-        * 0193 - UBLBE - UBL.BE Party Identifier
-        * 9958 - DE:LID - German Leitweg ID
+    * Document type identifiers
+        * Added new identifiers 
+            * according to [TICC-45](https://openpeppol.atlassian.net/browse/TICC-45)
+            * according to [TICC-49](https://openpeppol.atlassian.net/browse/TICC-49) - PEPPOL BIS Billing V3 with CII binding
+        * Fixed a typo in the `OrderResponse` document type of "PEPPOL Ordering profile V1"
+    * Participant identifier schemes
+        * Added 0193 - UBLBE - UBL.BE Party Identifier
+        * Added 9958 - DE:LID - German Leitweg ID
+    * Processes
+        * Added PreAward P001 "Procurement procedure subscription" - [TICC-50](https://openpeppol.atlassian.net/browse/TICC-50)
+        * Added PreAward P002 "Procurement document access" - [TICC-51](https://openpeppol.atlassian.net/browse/TICC-51)
+        * Added PreAward P003 "Tender Submission" - [TICC-52](https://openpeppol.atlassian.net/browse/TICC-52)
+    * Transport profiles
+        * No changes so far        
 * v2 - 2018-05-04
     * Deprecated old document type identifiers:
         * PEPPOL Billing profile V1

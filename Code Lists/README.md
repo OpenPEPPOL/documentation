@@ -23,7 +23,8 @@ This folder contains the PEPPOL code lists for:
         * Added PreAward P002 "Procurement document access" - [TICC-51](https://openpeppol.atlassian.net/browse/TICC-51)
         * Added PreAward P003 "Tender Submission" - [TICC-52](https://openpeppol.atlassian.net/browse/TICC-52)
     * Transport profile identifiers
-        * No changes so far        
+        * AS4 profile v1 was deprecated (`peppol-transport-as4-v1_0`)
+        * AS4 profile v2 was added (`peppol-transport-as4-v2_0`)
 * v2 - 2018-05-04
     * Deprecated old document type identifiers:
         * PEPPOL Billing profile V1

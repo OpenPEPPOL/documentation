@@ -8,7 +8,7 @@ This folder contains the PEPPOL code lists for:
 
 ## Version history
 
-* v3 - work in progress
+### v3 - work in progress
     * Document type identifiers
         * Added new identifiers according to [TICC-45](https://openpeppol.atlassian.net/browse/TICC-45)
         * Added new identifiers according to [TICC-49](https://openpeppol.atlassian.net/browse/TICC-49) - PEPPOL BIS Billing V3 with CII binding
@@ -32,7 +32,8 @@ This folder contains the PEPPOL code lists for:
     * General notes
         * The layout of the file "PEPPOL Code Lists - Processes v?.xlsx" changed. Column C now contains the identifier scheme
         * The layout of the file "PEPPOL Code Lists - Document types v?.xlsx" changed. Column B now contains the identifier scheme. Also the header of column A changed from "Common Name" to "Profile code"      
-* v2 - 2018-05-04
+
+### v2 - 2018-05-04
     * Deprecated old document type identifiers:
         * PEPPOL Billing profile V1
         * PEPPOL Catalogue profile V1

@@ -15,7 +15,8 @@ This folder contains the PEPPOL code lists for:
         * Added new identifiers documents types for P001, P002 and P003 (see "process identifiers" below)
         * Fixed a typo in the `OrderResponse` document type of "PEPPOL Ordering profile V1"
         * Fixed a typo in the `PEPPOL Order profile V2` document type. Correct: `peppol3a`. Old and invalid: `peppol03a`. 
-        * Added `XRechnung Invoice V1.1` and `XRechnung CreditNote V1.1` document types (as EN 16931 CIUSes) 
+        * Added `XRechnung Invoice V1.1` and `XRechnung CreditNote V1.1` document types (as EN 16931 CIUSes) [TICC-55](https://openpeppol.atlassian.net/browse/TICC-55) 
+        * Added "OIOUBL UtilityStatement V2.02" and "OIOUBL Reminder V2.02" document type identifiers [TICC-37](https://openpeppol.atlassian.net/browse/TICC-37)
     * Participant identifier schemes
         * Added 0193 - UBLBE - UBL.BE Party Identifier
         * Added 9958 - DE:LID - German Leitweg ID
@@ -23,9 +24,14 @@ This folder contains the PEPPOL code lists for:
         * Added PreAward P001 "Procurement procedure subscription" - [TICC-50](https://openpeppol.atlassian.net/browse/TICC-50)
         * Added PreAward P002 "Procurement document access" - [TICC-51](https://openpeppol.atlassian.net/browse/TICC-51)
         * Added PreAward P003 "Tender Submission" - [TICC-52](https://openpeppol.atlassian.net/browse/TICC-52)
+        * Added "OIOUBL UtilityStatement V2.02" and "OIOUBL Reminder V2.02" process identifiers [TICC-37](https://openpeppol.atlassian.net/browse/TICC-37) - **Important** this requires the usage of the OpenPEPPOL Envelope Specification 1.1 or newer (SBDH)
     * Transport profile identifiers
         * AS4 profile v1 was deprecated (`peppol-transport-as4-v1_0`)
         * AS4 profile v2 was added (`peppol-transport-as4-v2_0`)
+    * General notes
+        * The layout of the file "PEPPOL Code Lists - Processes v?.xlsx" changed. Column C now contains the identifier scheme
+        * The layout of the file "PEPPOL Code Lists - Document types v?.xlsx" changed. Column B now contains the identifier scheme
+        
 * v2 - 2018-05-04
     * Deprecated old document type identifiers:
         * PEPPOL Billing profile V1

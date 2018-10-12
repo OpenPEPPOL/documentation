@@ -8,7 +8,7 @@ This folder contains the PEPPOL code lists for:
 
 ## Version history
 
-### v3 - work in progress
+### v3 - 2018-10-12
 
 * Document type identifiers
     * Added new identifiers according to [TICC-45](https://openpeppol.atlassian.net/browse/TICC-45)

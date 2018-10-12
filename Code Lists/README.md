@@ -17,6 +17,7 @@ This folder contains the PEPPOL code lists for:
         * Fixed a typo in the `PEPPOL Order profile V2` document type. Correct: `peppol3a`. Old and invalid: `peppol03a`. 
         * Added `XRechnung Invoice V1.1` and `XRechnung CreditNote V1.1` document types (as EN 16931 CIUSes) [TICC-55](https://openpeppol.atlassian.net/browse/TICC-55) 
         * Added "OIOUBL UtilityStatement V2.02" and "OIOUBL Reminder V2.02" document type identifiers [TICC-37](https://openpeppol.atlassian.net/browse/TICC-37)
+        * Added "UBL.BE Invoice 3.0" and "UBL.BE Credit Note 3.0" document type identifiers [TICC-54](https://openpeppol.atlassian.net/browse/TICC-54)
     * Participant identifier schemes
         * Added 0193 - UBLBE - UBL.BE Party Identifier
         * Added 9958 - DE:LID - German Leitweg ID
@@ -30,8 +31,7 @@ This folder contains the PEPPOL code lists for:
         * AS4 profile v2 was added (`peppol-transport-as4-v2_0`)
     * General notes
         * The layout of the file "PEPPOL Code Lists - Processes v?.xlsx" changed. Column C now contains the identifier scheme
-        * The layout of the file "PEPPOL Code Lists - Document types v?.xlsx" changed. Column B now contains the identifier scheme
-        
+        * The layout of the file "PEPPOL Code Lists - Document types v?.xlsx" changed. Column B now contains the identifier scheme. Also the header of column A changed from "Common Name" to "Profile code"      
 * v2 - 2018-05-04
     * Deprecated old document type identifiers:
         * PEPPOL Billing profile V1

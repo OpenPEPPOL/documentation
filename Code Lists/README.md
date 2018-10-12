@@ -15,6 +15,7 @@ This folder contains the PEPPOL code lists for:
         * Added new identifiers documents types for P001, P002 and P003 (see "process identifiers" below)
         * Fixed a typo in the `OrderResponse` document type of "PEPPOL Ordering profile V1"
         * Fixed a typo in the `PEPPOL Order profile V2` document type. Correct: `peppol3a`. Old and invalid: `peppol03a`. 
+        * Added `XRechnung Invoice V1.1` and `XRechnung CreditNote V1.1` document types (as EN 16931 CIUSes) 
     * Participant identifier schemes
         * Added 0193 - UBLBE - UBL.BE Party Identifier
         * Added 9958 - DE:LID - German Leitweg ID

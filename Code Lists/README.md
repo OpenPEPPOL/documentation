@@ -6,6 +6,10 @@ This folder contains the PEPPOL code lists for:
 * Processes
 * Transport profiles
 
+Latest release: **version 3**
+
+Previous versions can be found in the [old](https://github.com/OpenPEPPOL/documentation/tree/master/Code%20Lists/old) folder.
+
 ## Version history
 
 ### v3 - 2018-10-12

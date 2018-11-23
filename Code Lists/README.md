@@ -12,6 +12,12 @@ Previous versions can be found in the [old](https://github.com/OpenPEPPOL/docume
 
 ## Version history
 
+### v4 - work in progress
+
+* Participant identifier schemes
+    * Added 0196 - IS:KTNR - Icelandic National Registry
+    * Deprecated 9917 - IS:KT as it is replaced by 0196 
+
 ### v3 - 2018-10-12
 
 * Document type identifiers

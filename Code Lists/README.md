@@ -14,9 +14,14 @@ Previous versions can be found in the [old](https://github.com/OpenPEPPOL/docume
 
 ### v4 - work in progress
 
+* Known todos:
+    * add new BIS v3 document type identifiers
+    * Invoice response document type identifier is missing
+
 * Participant identifier schemes
-    * Added 0196 - IS:KTNR - Icelandic National Registry according to [TICC-61](https://openpeppol.atlassian.net/browse/TICC-61)
-    * Deprecated 9917 - IS:KT as it is replaced by 0196 
+    * Added 0195 - SG:UIN - Singapore Nationwide E-Invoice Framework - [TICC-60](https://openpeppol.atlassian.net/browse/TICC-60)
+    * Added 0196 - IS:KTNR - Icelandic National Registry - [TICC-61](https://openpeppol.atlassian.net/browse/TICC-61)
+    * Deprecated 9917 - IS:KT as it is replaced by 0196
 
 ### v3 - 2018-10-12
 

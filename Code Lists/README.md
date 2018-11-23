@@ -15,7 +15,7 @@ Previous versions can be found in the [old](https://github.com/OpenPEPPOL/docume
 ### v4 - work in progress
 
 * Participant identifier schemes
-    * Added 0196 - IS:KTNR - Icelandic National Registry
+    * Added 0196 - IS:KTNR - Icelandic National Registry according to [TICC-61](https://openpeppol.atlassian.net/browse/TICC-61)
     * Deprecated 9917 - IS:KT as it is replaced by 0196 
 
 ### v3 - 2018-10-12

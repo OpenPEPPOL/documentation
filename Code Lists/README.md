@@ -16,7 +16,8 @@ Previous versions can be found in the [old](https://github.com/OpenPEPPOL/docume
 
 * Known todos:
     * add new BIS v3 document type identifiers
-    * Invoice response document type identifier is missing
+    * NL CIUS v2 IDs are missing (TICC-66)
+    * Singapore IDs are missing (TICC-67)
 
 * Participant identifier schemes
     * Added 0195 - SG:UEN - Singapore Nationwide E-Invoice Framework - [TICC-60](https://openpeppol.atlassian.net/browse/TICC-60)

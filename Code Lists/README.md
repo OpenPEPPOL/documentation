@@ -23,6 +23,10 @@ Previous versions can be found in the [old](https://github.com/OpenPEPPOL/docume
     * Added 0196 - IS:KTNR - Icelandic National Registry - [TICC-61](https://openpeppol.atlassian.net/browse/TICC-61)
     * Deprecated 9917 - IS:KT as it is replaced by 0196
     * Added 0130 - EU:NAL - Directorates of the European Commission - [TICC-65](https://openpeppol.atlassian.net/browse/TICC-65)
+* Document type identifiers
+    * Added "PEPPOL Invoice Response V1" - [TICC-64](https://openpeppol.atlassian.net/browse/TICC-64)
+* Process identifiers
+    * Added "PEPPOL Invoice Response V1" - [TICC-64](https://openpeppol.atlassian.net/browse/TICC-64)
 
 ### v3 - 2018-10-12
 

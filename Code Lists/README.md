@@ -15,7 +15,7 @@ Previous versions can be found in the [old](https://github.com/OpenPEPPOL/docume
 ### v4 - work in progress
 
 * Known todos:
-    * add new BIS v3 document type identifiers
+    * add new BIS v3 document type identifiers (TICC-63)
     * NL CIUS v2 IDs are missing (TICC-66)
     * Singapore IDs are missing (TICC-67)
 
@@ -26,9 +26,26 @@ Previous versions can be found in the [old](https://github.com/OpenPEPPOL/docume
     * Added 0130 - EU:NAL - Directorates of the European Commission - [TICC-65](https://openpeppol.atlassian.net/browse/TICC-65)
 * Document type identifiers
     * Added "PEPPOL Invoice Response V1" - [TICC-64](https://openpeppol.atlassian.net/browse/TICC-64)
+    * Added "PEPPOL Catalogue transaction 3.0" - [TICC-63](https://openpeppol.atlassian.net/browse/TICC-63)
+    * Added "PEPPOL Catalogue Response transaction 3.0" - [TICC-63](https://openpeppol.atlassian.net/browse/TICC-63)
+    * Added "PEPPOL Order transaction 3.0" - [TICC-63](https://openpeppol.atlassian.net/browse/TICC-63)
+    * Added "PEPPOL Invoice Response transaction 3.0" - [TICC-63](https://openpeppol.atlassian.net/browse/TICC-63)
+    * Added "PEPPOL Punch Out transaction 3.0" - [TICC-63](https://openpeppol.atlassian.net/browse/TICC-63)
+    * Added "PEPPOL Order Response transaction 3.0" - [TICC-63](https://openpeppol.atlassian.net/browse/TICC-63)
+    * Added "PEPPOL Despatch Advice transaction 3.0" - [TICC-63](https://openpeppol.atlassian.net/browse/TICC-63)
+    * Added "PEPPOL Order Agreement transaction 3.0" - [TICC-63](https://openpeppol.atlassian.net/browse/TICC-63)
+    * Added "PEPPOL Message Level Response transaction 3.0" - [TICC-63](https://openpeppol.atlassian.net/browse/TICC-63)
 * Process identifiers
     * Added "PEPPOL Invoice Response V1" - [TICC-64](https://openpeppol.atlassian.net/browse/TICC-64)
-
+    * Added "PEPPOL BIS Catalogue only 3.0" - [TICC-63](https://openpeppol.atlassian.net/browse/TICC-63)
+    * Added "PEPPOL BIS Order only 3.0" - [TICC-63](https://openpeppol.atlassian.net/browse/TICC-63)
+    * Added "PEPPOL BIS Invoice Response 3.0" - [TICC-63](https://openpeppol.atlassian.net/browse/TICC-63)
+    * Added "PEPPOL BIS Punch Out 3.0" - [TICC-63](https://openpeppol.atlassian.net/browse/TICC-63)
+    * Added "PEPPOL BIS Ordering 3.0" - [TICC-63](https://openpeppol.atlassian.net/browse/TICC-63)
+    * Added "PEPPOL BIS Despatch Advice 3.0" - [TICC-63](https://openpeppol.atlassian.net/browse/TICC-63)
+    * Added "PEPPOL BIS Order Agreement 3.0" - [TICC-63](https://openpeppol.atlassian.net/browse/TICC-63)
+    * Added "PEPPOL BIS Message Level Response 3.0" - [TICC-63](https://openpeppol.atlassian.net/browse/TICC-63)
+    
 ### v3 - 2018-10-12
 
 * Document type identifiers

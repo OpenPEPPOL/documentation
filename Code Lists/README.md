@@ -14,9 +14,6 @@ Previous versions can be found in the [old](https://github.com/OpenPEPPOL/docume
 
 ### v4 - work in progress
 
-* Known todos:
-    * Singapore IDs are missing (TICC-67)
-
 * Participant identifier schemes
     * Added 0195 - SG:UEN - Singapore Nationwide E-Invoice Framework - [TICC-60](https://openpeppol.atlassian.net/browse/TICC-60)
     * Added 0196 - IS:KTNR - Icelandic National Registry - [TICC-61](https://openpeppol.atlassian.net/browse/TICC-61)
@@ -35,6 +32,8 @@ Previous versions can be found in the [old](https://github.com/OpenPEPPOL/docume
     * Added "PEPPOL Message Level Response transaction 3.0" - [TICC-63](https://openpeppol.atlassian.net/browse/TICC-63)
     * Added "SI-UBL 2.0 Invoice" - [TICC-66](https://openpeppol.atlassian.net/browse/TICC-66)
     * Added "SI-UBL 2.0 CreditNote" - [TICC-66](https://openpeppol.atlassian.net/browse/TICC-66)
+    * Added "SG PEPPOL BIS Billing 3.0 Invoice" - [TICC-67](https://openpeppol.atlassian.net/browse/TICC-67)
+    * Added "SG PEPPOL BIS Billing 3.0 Credit Note" - [TICC-67](https://openpeppol.atlassian.net/browse/TICC-67)
 * Process identifiers
     * Added "PEPPOL Invoice Response V1" - [TICC-64](https://openpeppol.atlassian.net/browse/TICC-64)
     * Added "PEPPOL BIS Catalogue only 3.0" - [TICC-63](https://openpeppol.atlassian.net/browse/TICC-63)

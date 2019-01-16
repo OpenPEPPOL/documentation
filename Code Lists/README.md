@@ -15,8 +15,6 @@ Previous versions can be found in the [old](https://github.com/OpenPEPPOL/docume
 ### v4 - work in progress
 
 * Known todos:
-    * add new BIS v3 document type identifiers (TICC-63)
-    * NL CIUS v2 IDs are missing (TICC-66)
     * Singapore IDs are missing (TICC-67)
 
 * Participant identifier schemes
@@ -35,6 +33,8 @@ Previous versions can be found in the [old](https://github.com/OpenPEPPOL/docume
     * Added "PEPPOL Despatch Advice transaction 3.0" - [TICC-63](https://openpeppol.atlassian.net/browse/TICC-63)
     * Added "PEPPOL Order Agreement transaction 3.0" - [TICC-63](https://openpeppol.atlassian.net/browse/TICC-63)
     * Added "PEPPOL Message Level Response transaction 3.0" - [TICC-63](https://openpeppol.atlassian.net/browse/TICC-63)
+    * Added "SI-UBL 2.0 Invoice" - [TICC-66](https://openpeppol.atlassian.net/browse/TICC-66)
+    * Added "SI-UBL 2.0 CreditNote" - [TICC-66](https://openpeppol.atlassian.net/browse/TICC-66)
 * Process identifiers
     * Added "PEPPOL Invoice Response V1" - [TICC-64](https://openpeppol.atlassian.net/browse/TICC-64)
     * Added "PEPPOL BIS Catalogue only 3.0" - [TICC-63](https://openpeppol.atlassian.net/browse/TICC-63)

@@ -12,7 +12,7 @@ Previous versions can be found in the [old](https://github.com/OpenPEPPOL/docume
 
 ## Version history
 
-### v4 - work in progress
+### v4 - 2019-01-18
 
 * Participant identifier schemes
     * Added 0195 - SG:UEN - Singapore Nationwide E-Invoice Framework - [TICC-60](https://openpeppol.atlassian.net/browse/TICC-60)

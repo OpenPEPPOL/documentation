@@ -19,6 +19,6 @@ Older versions are available in the [old](https://github.com/OpenPEPPOL/document
 * Policy for use of identifiers
     * For BIS v1 and BIS v2
         * Version in use: v3.1.0
-        * Version scheduled: v3.2.0
+        * Version scheduled: v3.2
     * For BIS v3 and later:
         * Version in use: v4.0

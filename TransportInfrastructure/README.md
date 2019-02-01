@@ -15,7 +15,7 @@ Older versions are available in the [old](https://github.com/OpenPEPPOL/document
     * Version in use: v1.1
 * Policy for Transport Security
     * Version in use: *none*
-    * Version scheduled: v1.0.0
+    * Version scheduled: v1.0
 * Policy for use of identifiers
     * For BIS v1 and BIS v2
         * Version in use: v3.1.0

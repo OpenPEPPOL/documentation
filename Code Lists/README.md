@@ -12,6 +12,13 @@ Previous versions can be found in the [old](https://github.com/OpenPEPPOL/docume
 
 ## Version history
 
+### v5 - work in progress
+
+* Participant identifier schemes
+    * Added 0151 - AU:ABN - Australian Business Number (ABN) Scheme
+    * Added new column in the Excel file **Country code**
+    * Added new column in the Excel file **Scheme name**
+
 ### v4 - 2019-01-18
 
 * Participant identifier schemes

@@ -18,6 +18,8 @@ Previous versions can be found in the [old](https://github.com/OpenPEPPOL/docume
     * Added 0151 - AU:ABN - Australian Business Number (ABN) Scheme
     * Added new column in the Excel file **Country code**
     * Added new column in the Excel file **Scheme name**
+* Transport profiles
+    * AS2 profile v2 was added (`busdox-transport-as2-ver2p0`)
 
 ### v4 - 2019-01-18
 

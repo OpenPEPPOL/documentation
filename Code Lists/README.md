@@ -18,6 +18,11 @@ Previous versions can be found in the [old](https://github.com/OpenPEPPOL/docume
     * Added 0151 - AU:ABN - Australian Business Number (ABN) Scheme
     * Added new column in the Excel file **Country code**
     * Added new column in the Excel file **Scheme name**
+* Document type identifiers
+    * Added "XRechnung UBL Invoice" - [TICC-71](https://openpeppol.atlassian.net/browse/TICC-71)
+    * Added "XRechnung UBL CreditNote" - [TICC-71](https://openpeppol.atlassian.net/browse/TICC-71)
+    * Added "XRechnung CII Invoice" - [TICC-71](https://openpeppol.atlassian.net/browse/TICC-71)
+    * Deprecated the old "XRechnung ... V1.1" identifiers - [TICC-71](https://openpeppol.atlassian.net/browse/TICC-71)
 * Transport profiles
     * AS2 profile v2 was added (`busdox-transport-as2-ver2p0`)
 

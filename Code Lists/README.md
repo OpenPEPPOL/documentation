@@ -18,6 +18,7 @@ Previous versions can be found in the [old](https://github.com/OpenPEPPOL/docume
     * Added 0151 - AU:ABN - Australian Business Number (ABN) Scheme
     * Added new column in the Excel file **Country code**
     * Added new column in the Excel file **Scheme name**
+    * Fixed a typo in the 0195 identifier agency name
 * Document type identifiers
     * Added "XRechnung UBL Invoice" - [TICC-71](https://openpeppol.atlassian.net/browse/TICC-71)
     * Added "XRechnung UBL CreditNote" - [TICC-71](https://openpeppol.atlassian.net/browse/TICC-71)

@@ -19,6 +19,7 @@ Previous versions can be found in the [old](https://github.com/OpenPEPPOL/docume
     * Added new column in the Excel file **Country code**
     * Added new column in the Excel file **Scheme name**
     * Fixed a typo in the 0195 identifier agency name
+    * Added 0200 - LT:LEC - Lithuanian Legal entity code [TICC-81](https://openpeppol.atlassian.net/browse/TICC-81)
 * Document type identifiers
     * Added "XRechnung UBL Invoice" - [TICC-71](https://openpeppol.atlassian.net/browse/TICC-71)
     * Added "XRechnung UBL CreditNote" - [TICC-71](https://openpeppol.atlassian.net/browse/TICC-71)

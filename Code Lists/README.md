@@ -2,9 +2,9 @@
 
 This folder contains the PEPPOL code lists for:
 * Participant identifier schemes
-* Document types
-* Processes
-* Transport profiles
+* Document type identifiers
+* Process identifiers
+* Transport profile identifiers
 
 Latest release: **version 4**
 

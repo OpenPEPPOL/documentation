@@ -21,12 +21,14 @@ Previous versions can be found in the [old](https://github.com/OpenPEPPOL/docume
     * Fixed a typo in the 0195 identifier agency name
     * Added 0200 - LT:LEC - Lithuanian Legal entity code [TICC-81](https://openpeppol.atlassian.net/browse/TICC-81)
 * Document type identifiers
-    * Added "XRechnung UBL Invoice" - [TICC-71](https://openpeppol.atlassian.net/browse/TICC-71)
-    * Added "XRechnung UBL CreditNote" - [TICC-71](https://openpeppol.atlassian.net/browse/TICC-71)
-    * Added "XRechnung CII Invoice" - [TICC-71](https://openpeppol.atlassian.net/browse/TICC-71)
+    * Added "XRechnung UBL Invoice V1.2" - [TICC-89](https://openpeppol.atlassian.net/browse/TICC-89)
+    * Added "XRechnung UBL CreditNote V1.2" - [TICC-89](https://openpeppol.atlassian.net/browse/TICC-89)
+    * Added "XRechnung CII Invoice V1.2" - [TICC-89](https://openpeppol.atlassian.net/browse/TICC-89)
     * Deprecated the old "XRechnung ... V1.1" identifiers - [TICC-71](https://openpeppol.atlassian.net/browse/TICC-71)
 * Transport profiles
     * AS2 profile v2 was added (`busdox-transport-as2-ver2p0`)
+
+Note: [TICC-89](https://openpeppol.atlassian.net/browse/TICC-89) obsoletes [TICC-71](https://openpeppol.atlassian.net/browse/TICC-71)
 
 ### v4 - 2019-01-18
 

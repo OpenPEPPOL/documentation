@@ -21,6 +21,7 @@ Previous versions can be found in the [old](https://github.com/OpenPEPPOL/docume
     * Fixed a typo in the 0195 identifier agency name
     * Added 0200 - LT:LEC - Lithuanian Legal entity code [TICC-81](https://openpeppol.atlassian.net/browse/TICC-81)
     * Added 0183 - CH:UIDB - Swiss Unique Business Identification Number (UIDB) [TICC-90](https://openpeppol.atlassian.net/browse/TICC-90)
+    * Added 0198 - DK:ERST - ERSTORG [TICC-91](https://openpeppol.atlassian.net/browse/TICC-91)
 * Document type identifiers
     * Added "XRechnung UBL Invoice V1.2" - [TICC-89](https://openpeppol.atlassian.net/browse/TICC-89)
     * Added "XRechnung UBL CreditNote V1.2" - [TICC-89](https://openpeppol.atlassian.net/browse/TICC-89)

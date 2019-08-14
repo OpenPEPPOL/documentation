@@ -12,6 +12,13 @@ Previous versions can be found in the [old](https://github.com/OpenPEPPOL/docume
 
 ## Version history
 
+### v6 - work in progress
+
+* Participant identifier schemes
+* Document type identifiers
+* Process identifiers
+* Transport profiles
+
 ### v5 - 2019-08-15
 
 * Participant identifier schemes
@@ -28,6 +35,8 @@ Previous versions can be found in the [old](https://github.com/OpenPEPPOL/docume
     * Added "XRechnung UBL CreditNote V1.2" - [TICC-89](https://openpeppol.atlassian.net/browse/TICC-89)
     * Added "XRechnung CII Invoice V1.2" - [TICC-89](https://openpeppol.atlassian.net/browse/TICC-89)
     * Deprecated the old "XRechnung ... V1.1" identifiers - [TICC-71](https://openpeppol.atlassian.net/browse/TICC-71)
+* Process identifiers
+    * *no changes*
 * Transport profiles
     * AS2 profile v2 was added (`busdox-transport-as2-ver2p0`)
 

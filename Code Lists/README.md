@@ -6,13 +6,13 @@ This folder contains the PEPPOL code lists for:
 * Process identifiers
 * Transport profile identifiers
 
-Latest release: **version 4**
+Latest release: **version 5**
 
 Previous versions can be found in the [old](https://github.com/OpenPEPPOL/documentation/tree/master/Code%20Lists/old) folder.
 
 ## Version history
 
-### v5 - work in progress
+### v5 - 2019-08-15
 
 * Participant identifier schemes
     * Added 0151 - AU:ABN - Australian Business Number (ABN) Scheme
@@ -120,7 +120,7 @@ Note: [TICC-89](https://openpeppol.atlassian.net/browse/TICC-89) obsoletes [TICC
 
 It is important to note that this is a dynamic list. Over time new services will be added. Developers should take this into account when designing and implementing solutions for PEPPOL services.
 
-### Participant identifier issuing agencies
+### Participant identifier schemes
 
 Rows marked as "deprecated" should not be used for newly issued documents, as the respective identifier issuing agency is no longer active/valid. Deprecated scheme IDs may however not be reused for different agencies as existing exchanged documents may refer to them.
 
@@ -129,5 +129,9 @@ Rows marked as "deprecated" should not be used for newly issued documents, as th
 Rows marked as "deprecated" should not be used for newly issued documents.
 
 ### Processes
+
+Rows marked as "deprecated" should not be used for newly issued documents.
+
+### Transport profiles
 
 Rows marked as "deprecated" should not be used for newly issued documents.

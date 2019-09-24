@@ -11,6 +11,8 @@ Previous versions can be found in the [releases](https://github.com/OpenPEPPOL/d
 ### v6 - work in progress
 
 * Participant identifier schemes
+    * Started fixing the structure of the code and example columns
+    * Added a new column on validation rules for the values
 * Document type identifiers
 * Process identifiers
 * Transport profiles

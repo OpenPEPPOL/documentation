@@ -14,6 +14,6 @@ Previous versions can be found in the [releases](https://github.com/OpenPEPPOL/d
     * Started fixing the structure of the code and example columns
     * Added a new column on validation rules for the values
 * Document type identifiers
-    * Changed displayname of "PEPPOL BIS Billing V3" to "PEPPOL BIS Billing Invoice V3" and "PEPPOL BIS Billing CreditNote V3" for better separation
+    * Changed displayname of "PEPPOL BIS Billing V3" to "PEPPOL BIS Billing UBL Invoice V3", "PEPPOL BIS Billing UBL CreditNote V3" and "PEPPOL BIS Billing CII Invoice V3" for better separation
 * Process identifiers
 * Transport profiles

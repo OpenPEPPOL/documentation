@@ -15,6 +15,8 @@ Previous versions can be found in the [releases](https://github.com/OpenPEPPOL/d
     * Added a new column on validation rules for the values
     * Added `0201` - IT:CUUO - Codice Univoco Unità Organizzativa iPA - [TICC-101](https://openpeppol.atlassian.net/browse/TICC-101)
     * Deprecated `9921` - IT:IPA in favour of `0201` - [TICC-101](https://openpeppol.atlassian.net/browse/TICC-101)
+    * Added `0204` - DE:LWID - Leitweg ID - [TICC-96](https://openpeppol.atlassian.net/browse/TICC-96)
+    * Deprecated `9958` - DE:LID in favour of `0204` - [TICC-96](https://openpeppol.atlassian.net/browse/TICC-96)
 * Document type identifiers
     * Changed the Profile code of several document types so that they come closer to uniqueness
     * Added "PEF.PL Accounting Note v1" - [TICC-75](https://openpeppol.atlassian.net/browse/TICC-75)

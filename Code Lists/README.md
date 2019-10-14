@@ -23,6 +23,8 @@ Previous versions can be found in the [releases](https://github.com/OpenPEPPOL/d
     * Added "PEF.PL Accounting Note v1" - [TICC-75](https://openpeppol.atlassian.net/browse/TICC-75)
     * Added "PEFPEF.PL Correcting Invoice v1" - [TICC-76](https://openpeppol.atlassian.net/browse/TICC-76)
     * Added "PEF.PL Receipt Advice v1" - [TICC-78](https://openpeppol.atlassian.net/browse/TICC-78)
+    * Added "AU-NZ PEPPOL BIS Billing 3.0 Invoice", "AU-NZ PEPPOL BIS Billing 3.0 CreditNote", "AU-NZ Self-Billing 3.0 Invoice" and "AU-NZ Self-Billing 3.0 CreditNote" - [TICC-102](https://openpeppol.atlassian.net/browse/TICC-102)
+    
 * Process identifiers
     * Added "PEF.PL Accounting Note v1" - [TICC-75](https://openpeppol.atlassian.net/browse/TICC-75)
     * Added "PEF.PL Correcting Invoice v1" - [TICC-76](https://openpeppol.atlassian.net/browse/TICC-76)

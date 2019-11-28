@@ -25,5 +25,6 @@ Previous versions can be found in the [releases](https://github.com/OpenPEPPOL/d
     * Added "PEF.PL Receipt Advice v1" - [TICC-78](https://openpeppol.atlassian.net/browse/TICC-78)
     * Added "AU-NZ PEPPOL BIS Billing 3.0 Invoice", "AU-NZ PEPPOL BIS Billing 3.0 CreditNote", "AU-NZ Self-Billing 3.0 Invoice" and "AU-NZ Self-Billing 3.0 CreditNote" - [TICC-102](https://openpeppol.atlassian.net/browse/TICC-102)
     * The process identifiers are now part of the document type identifiers list as a new column - [TICC-95](https://openpeppol.atlassian.net/browse/TICC-95)
+    * Added "SI-UBL 1.2 Invoice" and "SI-UBL 1.2 Order" - [TICC-107](https://openpeppol.atlassian.net/browse/TICC-107)
 * Transport profiles
     * *No changes so far*

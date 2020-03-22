@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:tns="http://busdox.org/serviceMetadata/ManageParticipantIdentifierService/1.0/" 
+                  xmlns:soap11="http://schemas.xmlsoap.org/wsdl/soap/" 
+                  xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" 
+                  xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+                  xmlns:lrs="http://busdox.org/serviceMetadata/locator/1.0/"
+                  xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/"
+                  xmlns:s="http://www.w3.org/2001/XMLSchema"
+                  xmlns:http="http://schemas.xmlsoap.org/wsdl/http/"
+                  name="ManageParticipantIdentifierService"
+                  targetNamespace="http://busdox.org/serviceMetadata/ManageParticipantIdentifierService/1.0/" 
+                  xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/"/>
+
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://busdox.org/serviceMetadata/ManageParticipantIdentifierService/1.0/Schema/">
+      <s:import namespace="http://busdox.org/serviceMetadata/locator/1.0/" schemaLocation="ServiceMetadataLocatorTypes.xsd"/>
+    </s:schema>
+  </wsdl:types>
+
+  <wsdl:message name="createIn">
+    <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/"/>
+    <wsdl:part name="messagePart" element="lrs:CreateParticipantIdentifier"/>
+  </wsdl:message>
+  <wsdl:message name="createOut">
+    <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/"/>
+  </wsdl:message>
+  <wsdl:message name="deleteIn">
+    <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/"/>
+    <wsdl:part name="messagePart" element="lrs:DeleteParticipantIdentifier"/>
+  </wsdl:message>
+  <wsdl:message name="deleteOut">
+    <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/"/>
+  </wsdl:message>
+  <wsdl:message name="listIn">
+    <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/"/>
+    <wsdl:part name="messagePart" element="lrs:PageRequest"/>
+  </wsdl:message>
+  <wsdl:message name="listOut">
+    <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/"/>
+    <wsdl:part name="messagePart" element="lrs:ParticipantIdentifierPage"/>
+  </wsdl:message>
+  <wsdl:message name="prepareMigrateIn">
+    <wsdl:part name="prepareMigrateIn" element="lrs:PrepareMigrationRecord"/>
+  </wsdl:message>
+  <wsdl:message name="prepareMigrateOut">
+    <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/"/>
+  </wsdl:message>
+  <wsdl:message name="migrateIn">
+    <wsdl:part name="migrateIn" element="lrs:CompleteMigrationRecord"/>
+  </wsdl:message>
+  <wsdl:message name="migrateOut">
+    <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/"/>
+  </wsdl:message>
+  <wsdl:message name="createListIn">
+    <wsdl:part name="createListIn" element="lrs:CreateList"/>
+  </wsdl:message>
+  <wsdl:message name="createListOut">
+    <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/"/>
+  </wsdl:message>
+  <wsdl:message name="deleteListIn">
+    <wsdl:part name="deleteListIn" element="lrs:DeleteList"/>
+  </wsdl:message>
+  <wsdl:message name="deleteListOut">
+    <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/"/>
+  </wsdl:message>
+  <wsdl:message name="badRequestFault">
+    <wsdl:part name="fault" element="lrs:BadRequestFault"/>
+  </wsdl:message>
+  <wsdl:message name="internalErrorFault">
+    <wsdl:part name="fault" element="lrs:InternalErrorFault"/>
+  </wsdl:message>
+  <wsdl:message name="notFoundFault">
+    <wsdl:part name="fault" element="lrs:NotFoundFault"/>
+  </wsdl:message>
+  <wsdl:message name="unauthorizedFault">
+    <wsdl:part name="fault" element="lrs:UnauthorizedFault"/>
+  </wsdl:message>
+
+  <wsdl:portType name="ManageParticipantIdentifierServiceSoap">
+    <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/"/>
+    <wsdl:operation name="Create">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/"/>
+      <wsdl:input message="tns:createIn"/>
+      <wsdl:output message="tns:createOut"/>
+      <wsdl:fault message="tns:notFoundFault" name="NotFoundFault"/>
+      <wsdl:fault message="tns:unauthorizedFault" name="UnauthorizedFault"/>
+      <wsdl:fault message="tns:internalErrorFault" name="InternalErrorFault"/>
+      <wsdl:fault message="tns:badRequestFault" name="BadRequestFault"/>
+    </wsdl:operation>
+    <wsdl:operation name="Delete">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/"/>
+      <wsdl:input message="tns:deleteIn"/>
+      <wsdl:output message="tns:deleteOut"/>
+      <wsdl:fault message="tns:notFoundFault" name="NotFoundFault"/>
+      <wsdl:fault message="tns:unauthorizedFault" name="UnauthorizedFault"/>
+      <wsdl:fault message="tns:internalErrorFault" name="InternalErrorFault"/>
+      <wsdl:fault message="tns:badRequestFault" name="BadRequestFault"/>
+    </wsdl:operation>
+    <wsdl:operation name="List">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/"/>
+      <wsdl:input message="tns:listIn"/>
+      <wsdl:output message="tns:listOut"/>
+      <wsdl:fault message="tns:notFoundFault" name="NotFoundFault"/>
+      <wsdl:fault message="tns:unauthorizedFault" name="UnauthorizedFault"/>
+      <wsdl:fault message="tns:internalErrorFault" name="InternalErrorFault"/>
+      <wsdl:fault message="tns:badRequestFault" name="BadRequestFault"/>
+    </wsdl:operation>
+    <wsdl:operation name="PrepareToMigrate">
+      <wsdl:input message="tns:prepareMigrateIn"/>
+      <wsdl:output message="tns:prepareMigrateOut"/>
+      <wsdl:fault message="tns:notFoundFault" name="NotFoundFault"/>
+      <wsdl:fault message="tns:unauthorizedFault" name="UnauthorizedFault"/>
+      <wsdl:fault message="tns:internalErrorFault" name="InternalErrorFault"/>
+      <wsdl:fault message="tns:badRequestFault" name="BadRequestFault"/>
+    </wsdl:operation>
+    <wsdl:operation name="Migrate">
+      <wsdl:input message="tns:migrateIn"/>
+      <wsdl:output message="tns:migrateOut"/>
+      <wsdl:fault message="tns:notFoundFault" name="NotFoundFault"/>
+      <wsdl:fault message="tns:unauthorizedFault" name="UnauthorizedFault"/>
+      <wsdl:fault message="tns:internalErrorFault" name="InternalErrorFault"/>
+      <wsdl:fault message="tns:badRequestFault" name="BadRequestFault"/>
+    </wsdl:operation>
+    <wsdl:operation name="CreateList">
+      <wsdl:input message="tns:createListIn"/>
+      <wsdl:output message="tns:createListOut"/>
+      <wsdl:fault message="tns:notFoundFault" name="NotFoundFault"/>
+      <wsdl:fault message="tns:unauthorizedFault" name="UnauthorizedFault"/>
+      <wsdl:fault message="tns:internalErrorFault" name="InternalErrorFault"/>
+      <wsdl:fault message="tns:badRequestFault" name="BadRequestFault"/>
+    </wsdl:operation>
+    <wsdl:operation name="DeleteList">
+      <wsdl:input message="tns:deleteListIn"/>
+      <wsdl:output message="tns:deleteListOut"/>
+      <wsdl:fault message="tns:notFoundFault" name="NotFoundFault"/>
+      <wsdl:fault message="tns:unauthorizedFault" name="UnauthorizedFault"/>
+      <wsdl:fault message="tns:internalErrorFault" name="InternalErrorFault"/>
+      <wsdl:fault message="tns:badRequestFault" name="BadRequestFault"/>
+    </wsdl:operation>
+  </wsdl:portType>
+
+  <wsdl:binding name="ManageParticipantIdentifierServiceSoap" type="tns:ManageParticipantIdentifierServiceSoap">
+    <soap11:binding transport="http://schemas.xmlsoap.org/soap/http"/>
+    <wsdl:operation name="Create">
+<!--
+The 8 blanks in @soapAction are unfortunate but implemented like this in CEF SML!
+-->
+      <soap11:operation soapAction="http://busdox.org/serviceMetadata/ManageParticipantIdentifierService/1.0/        :createIn" style="document"/>
+      <wsdl:input>
+        <soap11:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap11:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="UnauthorizedFault">
+        <soap:fault name="UnauthorizedFault" use="literal"/>
+      </wsdl:fault>
+      <wsdl:fault name="InternalErrorFault">
+        <soap:fault name="InternalErrorFault" use="literal"/>
+      </wsdl:fault>
+      <wsdl:fault name="BadRequestFault">
+        <soap:fault name="BadRequestFault" use="literal"/>
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="CreateList">
+<!--
+The 8 blanks in @soapAction are unfortunate but implemented like this in CEF SML!
+-->
+      <soap11:operation soapAction="http://busdox.org/serviceMetadata/ManageParticipantIdentifierService/1.0/        :createListIn" style="document"/>
+      <wsdl:input>
+        <soap11:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap11:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="NotFoundFault">
+        <soap:fault name="NotFoundFault" use="literal"/>
+      </wsdl:fault>
+      <wsdl:fault name="UnauthorizedFault">
+        <soap:fault name="UnauthorizedFault" use="literal"/>
+      </wsdl:fault>
+      <wsdl:fault name="InternalErrorFault">
+        <soap:fault name="InternalErrorFault" use="literal"/>
+      </wsdl:fault>
+      <wsdl:fault name="BadRequestFault">
+        <soap:fault name="BadRequestFault" use="literal"/>
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="Delete">
+<!--
+The 8 blanks in @soapAction are unfortunate but implemented like this in CEF SML!
+-->
+      <soap11:operation soapAction="http://busdox.org/serviceMetadata/ManageParticipantIdentifierService/1.0/        :deleteIn" style="document"/>
+      <wsdl:input>
+        <soap11:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap11:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="NotFoundFault">
+        <soap:fault name="NotFoundFault" use="literal"/>
+      </wsdl:fault>
+      <wsdl:fault name="UnauthorizedFault">
+        <soap:fault name="UnauthorizedFault" use="literal"/>
+      </wsdl:fault>
+      <wsdl:fault name="InternalErrorFault">
+        <soap:fault name="InternalErrorFault" use="literal"/>
+      </wsdl:fault>
+      <wsdl:fault name="BadRequestFault">
+        <soap:fault name="BadRequestFault" use="literal"/>
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="DeleteList">
+<!--
+The 8 blanks in @soapAction are unfortunate but implemented like this in CEF SML!
+-->
+      <soap11:operation soapAction="http://busdox.org/serviceMetadata/ManageParticipantIdentifierService/1.0/        :deleteListIn" style="document"/>
+      <wsdl:input>
+        <soap11:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap11:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="NotFoundFault">
+        <soap:fault name="NotFoundFault" use="literal"/>
+      </wsdl:fault>
+      <wsdl:fault name="UnauthorizedFault">
+        <soap:fault name="UnauthorizedFault" use="literal"/>
+      </wsdl:fault>
+      <wsdl:fault name="InternalErrorFault">
+        <soap:fault name="InternalErrorFault" use="literal"/>
+      </wsdl:fault>
+      <wsdl:fault name="BadRequestFault">
+        <soap:fault name="BadRequestFault" use="literal"/>
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="List">
+<!--
+The 8 blanks in @soapAction are unfortunate but implemented like this in CEF SML!
+-->
+      <soap11:operation soapAction="http://busdox.org/serviceMetadata/ManageParticipantIdentifierService/1.0/        :listIn" style="document"/>
+      <wsdl:input>
+        <soap11:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap11:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="NotFoundFault">
+        <soap:fault name="NotFoundFault" use="literal"/>
+      </wsdl:fault>
+      <wsdl:fault name="UnauthorizedFault">
+        <soap:fault name="UnauthorizedFault" use="literal"/>
+      </wsdl:fault>
+      <wsdl:fault name="InternalErrorFault">
+        <soap:fault name="InternalErrorFault" use="literal"/>
+      </wsdl:fault>
+      <wsdl:fault name="BadRequestFault">
+        <soap:fault name="BadRequestFault" use="literal"/>
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="PrepareToMigrate">
+<!--
+The 8 blanks in @soapAction are unfortunate but implemented like this in CEF SML!
+-->
+      <soap11:operation soapAction="http://busdox.org/serviceMetadata/ManageParticipantIdentifierService/1.0/        :prepareMigrateIn" style="document"/>
+      <wsdl:input>
+        <soap11:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap11:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="NotFoundFault">
+        <soap:fault name="NotFoundFault" use="literal"/>
+      </wsdl:fault>
+      <wsdl:fault name="UnauthorizedFault">
+        <soap:fault name="UnauthorizedFault" use="literal"/>
+      </wsdl:fault>
+      <wsdl:fault name="InternalErrorFault">
+        <soap:fault name="InternalErrorFault" use="literal"/>
+      </wsdl:fault>
+      <wsdl:fault name="BadRequestFault">
+        <soap:fault name="BadRequestFault" use="literal"/>
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="Migrate">
+<!--
+The 8 blanks in @soapAction are unfortunate but implemented like this in CEF SML!
+-->
+      <soap11:operation soapAction="http://busdox.org/serviceMetadata/ManageParticipantIdentifierService/1.0/        :migrateIn" style="document"/>
+      <wsdl:input>
+        <soap11:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap11:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="NotFoundFault">
+        <soap:fault name="NotFoundFault" use="literal"/>
+      </wsdl:fault>
+      <wsdl:fault name="UnauthorizedFault">
+        <soap:fault name="UnauthorizedFault" use="literal"/>
+      </wsdl:fault>
+      <wsdl:fault name="InternalErrorFault">
+        <soap:fault name="InternalErrorFault" use="literal"/>
+      </wsdl:fault>
+      <wsdl:fault name="BadRequestFault">
+        <soap:fault name="BadRequestFault" use="literal"/>
+      </wsdl:fault>
+    </wsdl:operation>
+  </wsdl:binding>
+</wsdl:definitions>
+

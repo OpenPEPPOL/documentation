@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="ServiceMetadataPublisherService" 
+           targetNamespace="http://busdox.org/serviceMetadata/locator/1.0/" 
+           elementFormDefault="qualified" 
+           xmlns="http://busdox.org/serviceMetadata/locator/1.0/" 
+           xmlns:ids="http://busdox.org/transport/identifiers/1.0/" 
+           xmlns:mstns="http://tempuri.org/ServiceMetadataPublisherService.xsd" 
+           xmlns:wsa="http://www.w3.org/2005/08/addressing"
+           xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" 
+             namespace="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wsswssecurity-utility-1.0.xsd"/>
+  <xs:import schemaLocation="ws-addr.xsd" namespace="http://www.w3.org/2005/08/addressing"/>
+  <xs:import schemaLocation="Identifiers-1.0.xsd" namespace="http://busdox.org/transport/identifiers/1.0/"/>
+
+  <xs:element name="ServiceMetadataPublisherID" type="xs:string"/>
+  <xs:element name="CreateServiceMetadataPublisherService" type="ServiceMetadataPublisherServiceType"/>
+  <xs:element name="ReadServiceMetadataPublisherService" type="ServiceMetadataPublisherIdentifierType"/>
+  <xs:element name="UpdateServiceMetadataPublisherService" type="ServiceMetadataPublisherServiceType"/>
+  <xs:element name="DeleteServiceMetadataPublisherService" ref="ServiceMetadataPublisherID"/>
+
+  <xs:complexType name="ServiceMetadataPublisherServiceType">
+    <xs:sequence>
+      <xs:element name="PublisherEndpoint" type="PublisherEndpointType"/>
+      <xs:element ref="ServiceMetadataPublisherID"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="PublisherEndpointType">
+    <xs:sequence>
+      <xs:element name="EndpointAddress" type="xs:anyURI"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="ServiceMetadataPublisherServiceForParticipantType">
+    <xs:sequence>
+      <xs:element ref="ServiceMetadataPublisherID"/>
+      <xs:element ref="ids:ParticipantIdentifier"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="ServiceMetadataPublisherIdentifierType">
+    <xs:sequence>
+      <xs:element ref="ServiceMetadataPublisherID"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:element name="CreateParticipantIdentifier" type="ServiceMetadataPublisherServiceForParticipantType"/>
+  <xs:element name="DeleteParticipantIdentifier" type="ServiceMetadataPublisherServiceForParticipantType"/>
+  <xs:element name="ServiceMetadataPublisherService" type="ServiceMetadataPublisherServiceType" />
+
+  <xs:element name="ParticipantIdentifierPage" type="ParticipantIdentifierPageType"/>
+  <xs:element name="CreateList" type="ParticipantIdentifierPageType"/>
+  <xs:element name="DeleteList" type="ParticipantIdentifierPageType"/>
+  <xs:complexType name="ParticipantIdentifierPageType">
+    <xs:sequence>
+      <xs:element ref="ServiceMetadataPublisherID"/>
+      <xs:element ref="ids:ParticipantIdentifier" minOccurs="0" maxOccurs="unbounded"/>
+      <xs:element ref="PageID" minOccurs="0"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:element name="PageRequest" type="PageRequestType"/>
+  <xs:complexType name="PageRequestType">
+    <xs:sequence>
+      <xs:element ref="ServiceMetadataPublisherID"/>
+      <xs:element name="NextPageIdentifier" type="xs:string" minOccurs="0"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:element name="PrepareMigrationRecord" type="MigrationRecordType"/>
+  <xs:element name="CompleteMigrationRecord" type="MigrationRecordType"/>
+  <xs:complexType name="MigrationRecordType">
+    <xs:sequence>
+      <xs:element ref="ServiceMetadataPublisherID"/>
+      <xs:element ref="ids:ParticipantIdentifier"/>
+      <xs:element name="MigrationKey" type="xs:string"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:element name="BadRequestFault" type="FaultType"/>
+  <xs:element name="InternalErrorFault" type="FaultType"/>
+  <xs:element name="NotFoundFault" type="FaultType"/>
+  <xs:element name="UnauthorizedFault" type="FaultType"/>
+  <xs:complexType name="FaultType">
+    <xs:sequence>
+      <xs:element name="FaultMessage" type="xs:string" minOccurs="0"/>
+    </xs:sequence>
+  </xs:complexType>
+</xs:schema>

@@ -1,21 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <wsdl:definitions xmlns:tns="http://busdox.org/serviceMetadata/ManageParticipantIdentifierService/1.0/" 
-                  xmlns:soap11="http://schemas.xmlsoap.org/wsdl/soap/" 
                   xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" 
-                  xmlns:xsd="http://www.w3.org/2001/XMLSchema"
                   xmlns:lrs="http://busdox.org/serviceMetadata/locator/1.0/"
-                  xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/"
-                  xmlns:s="http://www.w3.org/2001/XMLSchema"
-                  xmlns:http="http://schemas.xmlsoap.org/wsdl/http/"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
                   name="ManageParticipantIdentifierService"
                   targetNamespace="http://busdox.org/serviceMetadata/ManageParticipantIdentifierService/1.0/" 
                   xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
   <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/"/>
 
   <wsdl:types>
-    <s:schema elementFormDefault="qualified" targetNamespace="http://busdox.org/serviceMetadata/ManageParticipantIdentifierService/1.0/Schema/">
-      <s:import namespace="http://busdox.org/serviceMetadata/locator/1.0/" schemaLocation="ServiceMetadataLocatorTypes.xsd"/>
-    </s:schema>
+    <xs:schema elementFormDefault="qualified" targetNamespace="http://busdox.org/serviceMetadata/ManageParticipantIdentifierService/1.0/Schema/">
+      <xs:import namespace="http://busdox.org/serviceMetadata/locator/1.0/" schemaLocation="ServiceMetadataLocatorTypes.xsd"/>
+    </xs:schema>
   </wsdl:types>
 
   <wsdl:message name="createIn">
@@ -141,17 +137,17 @@
   </wsdl:portType>
 
   <wsdl:binding name="ManageParticipantIdentifierServiceSoap" type="tns:ManageParticipantIdentifierServiceSoap">
-    <soap11:binding transport="http://schemas.xmlsoap.org/soap/http"/>
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http"/>
     <wsdl:operation name="Create">
 <!--
 The 8 blanks in @soapAction are unfortunate but implemented like this in CEF SML!
 -->
-      <soap11:operation soapAction="http://busdox.org/serviceMetadata/ManageParticipantIdentifierService/1.0/        :createIn" style="document"/>
+      <soap:operation soapAction="http://busdox.org/serviceMetadata/ManageParticipantIdentifierService/1.0/        :createIn" style="document"/>
       <wsdl:input>
-        <soap11:body use="literal"/>
+        <soap:body use="literal"/>
       </wsdl:input>
       <wsdl:output>
-        <soap11:body use="literal"/>
+        <soap:body use="literal"/>
       </wsdl:output>
       <wsdl:fault name="UnauthorizedFault">
         <soap:fault name="UnauthorizedFault" use="literal"/>
@@ -167,12 +163,12 @@ The 8 blanks in @soapAction are unfortunate but implemented like this in CEF SML
 <!--
 The 8 blanks in @soapAction are unfortunate but implemented like this in CEF SML!
 -->
-      <soap11:operation soapAction="http://busdox.org/serviceMetadata/ManageParticipantIdentifierService/1.0/        :createListIn" style="document"/>
+      <soap:operation soapAction="http://busdox.org/serviceMetadata/ManageParticipantIdentifierService/1.0/        :createListIn" style="document"/>
       <wsdl:input>
-        <soap11:body use="literal"/>
+        <soap:body use="literal"/>
       </wsdl:input>
       <wsdl:output>
-        <soap11:body use="literal"/>
+        <soap:body use="literal"/>
       </wsdl:output>
       <wsdl:fault name="NotFoundFault">
         <soap:fault name="NotFoundFault" use="literal"/>
@@ -191,12 +187,12 @@ The 8 blanks in @soapAction are unfortunate but implemented like this in CEF SML
 <!--
 The 8 blanks in @soapAction are unfortunate but implemented like this in CEF SML!
 -->
-      <soap11:operation soapAction="http://busdox.org/serviceMetadata/ManageParticipantIdentifierService/1.0/        :deleteIn" style="document"/>
+      <soap:operation soapAction="http://busdox.org/serviceMetadata/ManageParticipantIdentifierService/1.0/        :deleteIn" style="document"/>
       <wsdl:input>
-        <soap11:body use="literal"/>
+        <soap:body use="literal"/>
       </wsdl:input>
       <wsdl:output>
-        <soap11:body use="literal"/>
+        <soap:body use="literal"/>
       </wsdl:output>
       <wsdl:fault name="NotFoundFault">
         <soap:fault name="NotFoundFault" use="literal"/>
@@ -215,12 +211,12 @@ The 8 blanks in @soapAction are unfortunate but implemented like this in CEF SML
 <!--
 The 8 blanks in @soapAction are unfortunate but implemented like this in CEF SML!
 -->
-      <soap11:operation soapAction="http://busdox.org/serviceMetadata/ManageParticipantIdentifierService/1.0/        :deleteListIn" style="document"/>
+      <soap:operation soapAction="http://busdox.org/serviceMetadata/ManageParticipantIdentifierService/1.0/        :deleteListIn" style="document"/>
       <wsdl:input>
-        <soap11:body use="literal"/>
+        <soap:body use="literal"/>
       </wsdl:input>
       <wsdl:output>
-        <soap11:body use="literal"/>
+        <soap:body use="literal"/>
       </wsdl:output>
       <wsdl:fault name="NotFoundFault">
         <soap:fault name="NotFoundFault" use="literal"/>
@@ -239,12 +235,12 @@ The 8 blanks in @soapAction are unfortunate but implemented like this in CEF SML
 <!--
 The 8 blanks in @soapAction are unfortunate but implemented like this in CEF SML!
 -->
-      <soap11:operation soapAction="http://busdox.org/serviceMetadata/ManageParticipantIdentifierService/1.0/        :listIn" style="document"/>
+      <soap:operation soapAction="http://busdox.org/serviceMetadata/ManageParticipantIdentifierService/1.0/        :listIn" style="document"/>
       <wsdl:input>
-        <soap11:body use="literal"/>
+        <soap:body use="literal"/>
       </wsdl:input>
       <wsdl:output>
-        <soap11:body use="literal"/>
+        <soap:body use="literal"/>
       </wsdl:output>
       <wsdl:fault name="NotFoundFault">
         <soap:fault name="NotFoundFault" use="literal"/>
@@ -263,12 +259,12 @@ The 8 blanks in @soapAction are unfortunate but implemented like this in CEF SML
 <!--
 The 8 blanks in @soapAction are unfortunate but implemented like this in CEF SML!
 -->
-      <soap11:operation soapAction="http://busdox.org/serviceMetadata/ManageParticipantIdentifierService/1.0/        :prepareMigrateIn" style="document"/>
+      <soap:operation soapAction="http://busdox.org/serviceMetadata/ManageParticipantIdentifierService/1.0/        :prepareMigrateIn" style="document"/>
       <wsdl:input>
-        <soap11:body use="literal"/>
+        <soap:body use="literal"/>
       </wsdl:input>
       <wsdl:output>
-        <soap11:body use="literal"/>
+        <soap:body use="literal"/>
       </wsdl:output>
       <wsdl:fault name="NotFoundFault">
         <soap:fault name="NotFoundFault" use="literal"/>
@@ -287,12 +283,12 @@ The 8 blanks in @soapAction are unfortunate but implemented like this in CEF SML
 <!--
 The 8 blanks in @soapAction are unfortunate but implemented like this in CEF SML!
 -->
-      <soap11:operation soapAction="http://busdox.org/serviceMetadata/ManageParticipantIdentifierService/1.0/        :migrateIn" style="document"/>
+      <soap:operation soapAction="http://busdox.org/serviceMetadata/ManageParticipantIdentifierService/1.0/        :migrateIn" style="document"/>
       <wsdl:input>
-        <soap11:body use="literal"/>
+        <soap:body use="literal"/>
       </wsdl:input>
       <wsdl:output>
-        <soap11:body use="literal"/>
+        <soap:body use="literal"/>
       </wsdl:output>
       <wsdl:fault name="NotFoundFault">
         <soap:fault name="NotFoundFault" use="literal"/>
@@ -309,4 +305,3 @@ The 8 blanks in @soapAction are unfortunate but implemented like this in CEF SML
     </wsdl:operation>
   </wsdl:binding>
 </wsdl:definitions>
-

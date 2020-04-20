@@ -11,7 +11,7 @@ Previous versions can be found in the [releases](https://github.com/OpenPEPPOL/d
 ### v7 - work in progress
 
 * Participant identifier schemes
-    * *No changes so far*
+    * Added `0208` - BE:BCE - Numero d'entreprise / ondernemingsnummer / Unternehmensnummer - [TICC-126](https://openpeppol.atlassian.net/browse/TICC-126)
 
 * Document type identifiers
     * Deprecated all old BIS 1 or BIS 2 identifiers issued by OpenPEPPOL and maintained by POAC - [TICC-114](https://openpeppol.atlassian.net/browse/TICC-114). These are:

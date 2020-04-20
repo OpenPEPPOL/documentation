@@ -39,7 +39,7 @@ Previous versions can be found in the [releases](https://github.com/OpenPEPPOL/d
         * `urn:fdc:www.efaktura.gov.pl:ver1.0:receipt_advice:ver1.0` - [TICC-78](https://openpeppol.atlassian.net/browse/TICC-78)
 
 * Transport profiles
-    * *No changes so far*
+    * Deprecated "Peppol AS2 v1" with ID `busdox-transport-as2-ver1p0` - [TICC-123](https://openpeppol.atlassian.net/browse/TICC-123)
 
 ### v8 - work in progress
 

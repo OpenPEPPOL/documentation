@@ -42,6 +42,10 @@ Previous versions can be found in the [releases](https://github.com/OpenPEPPOL/d
     * Added "XRechnung UBL CreditNote V2.0" - [TICC-118](https://openpeppol.atlassian.net/browse/TICC-118)
     * Added "XRechnung CII Invoice V2.0" - [TICC-118](https://openpeppol.atlassian.net/browse/TICC-118)
     * Added "SI-UBL 2.0 G-Account Extension" - [TICC-124](https://openpeppol.atlassian.net/browse/TICC-124)
+    * Added "EHF Advanced Order Initiation 3.0" - [TICC-129](https://openpeppol.atlassian.net/browse/TICC-129)
+    * Added "EHF Advanced Order Change 3.0" - [TICC-129](https://openpeppol.atlassian.net/browse/TICC-129)
+    * Added "EHF Advanced Order Cancellation 3.0" - [TICC-129](https://openpeppol.atlassian.net/browse/TICC-129)
+    * Added "EHF Advanced Order Response 3.0" - [TICC-129](https://openpeppol.atlassian.net/browse/TICC-129)
     
 * Process identifiers
     * Added the missing Polish process identifiers that should have been included in v6 [TICC-115](https://openpeppol.atlassian.net/browse/TICC-115)

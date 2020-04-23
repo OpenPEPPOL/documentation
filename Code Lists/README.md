@@ -32,7 +32,10 @@ Previous versions can be found in the [releases](https://github.com/OpenPEPPOL/d
         * PEPPOL Despatch Advice V1 - `urn:oasis:names:specification:ubl:schema:xsd:DespatchAdvice-2::DespatchAdvice##urn:www.cenbii.eu:transaction:biitrns016:ver1.0:extended:urn:www.peppol.eu:bis:peppol30a:ver1.0::2.1`
         * PEPPOL Message Level Response V1 - `urn:oasis:names:specification:ubl:schema:xsd:ApplicationResponse-2::ApplicationResponse##urn:www.cenbii.eu:transaction:biitrns071:ver2.0:extended:urn:www.peppol.eu:bis:peppol36a:ver1.0::2.1`
         * PEPPOL Invoice Response V1 - `urn:oasis:names:specification:ubl:schema:xsd:ApplicationResponse-2::ApplicationResponse##urn:www.peppol.eu:transaction:biitrns111:ver1.0::2.1`
-
+    * Added "XRechnung UBL Invoice V1.3" - [TICC-117](https://openpeppol.atlassian.net/browse/TICC-117)
+    * Added "XRechnung UBL CreditNote V1.3" - [TICC-117](https://openpeppol.atlassian.net/browse/TICC-117)
+    * Added "XRechnung CII Invoice V1.3" - [TICC-117](https://openpeppol.atlassian.net/browse/TICC-117)
+    
 * Process identifiers
     * Added the missing Polish process identifiers that should have been included in v6 [TICC-115](https://openpeppol.atlassian.net/browse/TICC-115)
         * `urn:fdc:www.efaktura.gov.pl:ver1.0:account_corr:ver1.0` - [TICC-75](https://openpeppol.atlassian.net/browse/TICC-75)

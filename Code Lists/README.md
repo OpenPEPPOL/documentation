@@ -15,6 +15,7 @@ Previous versions can be found in the [releases](https://github.com/OpenPEPPOL/d
 
 * Document type identifiers
     * The process identifiers are now part of the document type identifiers list as a new column - [TICC-95](https://openpeppol.atlassian.net/browse/TICC-95)
+    * Added a new, non-normative column with validation rules. Input is welcome.
     * Deprecated all old BIS 1 or BIS 2 identifiers issued by OpenPEPPOL and maintained by POAC - [TICC-114](https://openpeppol.atlassian.net/browse/TICC-114). These are:
         * PEPPOL Catalogue profile V4 - `urn:oasis:names:specification:ubl:schema:xsd:Catalogue-2::Catalogue##urn:www.cenbii.eu:transaction:biitrns019:ver2.0:extended:urn:www.peppol.eu:bis:peppol1a:ver4.0::2.1`
         * PEPPOL Order profile V2 - `urn:oasis:names:specification:ubl:schema:xsd:Order-2::Order##urn:www.cenbii.eu:transaction:biitrns001:ver2.0:extended:urn:www.peppol.eu:bis:peppol3a:ver2.0::2.1`
@@ -46,6 +47,9 @@ Previous versions can be found in the [releases](https://github.com/OpenPEPPOL/d
     * Added "EHF Advanced Order Change 3.0" - [TICC-129](https://openpeppol.atlassian.net/browse/TICC-129)
     * Added "EHF Advanced Order Cancellation 3.0" - [TICC-129](https://openpeppol.atlassian.net/browse/TICC-129)
     * Added "EHF Advanced Order Response 3.0" - [TICC-129](https://openpeppol.atlassian.net/browse/TICC-129)
+    * Added "EN 16931 UBL Invoice" - [PEPPOL-2534](https://openpeppol.atlassian.net/browse/PEPPOL-2534)
+    * Added "EN 16931 UBL CreditNote" - [PEPPOL-2534](https://openpeppol.atlassian.net/browse/PEPPOL-2534)
+    * Added "EN 16931 CII Invoice" - [PEPPOL-2534](https://openpeppol.atlassian.net/browse/PEPPOL-2534)
     
 * Process identifiers
     * Added the missing Polish process identifiers that should have been included in v6 [TICC-115](https://openpeppol.atlassian.net/browse/TICC-115)

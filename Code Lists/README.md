@@ -8,7 +8,7 @@ See https://docs.peppol.eu/edelivery/codelists/changelog.html for all changes.
 
 Previous versions can be found in the [releases](https://github.com/OpenPEPPOL/documentation/tree/master/Code%20Lists/releases) folder.
 
-### v7 - work in progress
+### v7 - feature freeze
 
 * Participant identifier schemes
     * Added `0208` - BE:EN - Numero d'entreprise / ondernemingsnummer / Unternehmensnummer - [TICC-126](https://openpeppol.atlassian.net/browse/TICC-126)
@@ -59,6 +59,17 @@ Previous versions can be found in the [releases](https://github.com/OpenPEPPOL/d
 
 * Transport profiles
     * Deprecated "Peppol AS2 v1" with ID `busdox-transport-as2-ver1p0` - [TICC-123](https://openpeppol.atlassian.net/browse/TICC-123)
+
+### v8 - upcoming
+
+* Participant identifier schemes
+    * *No changes so far*
+
+* Document type identifiers
+    * *No changes so far*
+
+* Transport profiles
+    * *No changes so far*
 
 ### backlog
 

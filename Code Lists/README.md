@@ -10,6 +10,8 @@ Previous versions can be found in the [releases](https://github.com/OpenPEPPOL/d
 
 ### v7 - feature freeze
 
+* The name of the files was changed from "PEPPOL" to "Peppol"
+
 * Participant identifier schemes
     * Added `0208` - BE:EN - Numero d'entreprise / ondernemingsnummer / Unternehmensnummer - [TICC-126](https://openpeppol.atlassian.net/browse/TICC-126)
 

@@ -27,8 +27,6 @@ SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
            xmlns="http://busdox.org/serviceMetadata/locator/1.0/" 
            xmlns:ids="http://busdox.org/transport/identifiers/1.0/" 
            xmlns:xs="http://www.w3.org/2001/XMLSchema">
-  <xs:import schemaLocation="oasis-200401-wss-wssecurity-utility-1.0.xsd" namespace="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wsswssecurity-utility-1.0.xsd"/>
-  <xs:import schemaLocation="ws-addr.xsd" namespace="http://www.w3.org/2005/08/addressing"/>
   <xs:import schemaLocation="peppol-identifiers-v1.xsd" namespace="http://busdox.org/transport/identifiers/1.0/"/>
 
   <xs:element name="ServiceMetadataPublisherID" type="xs:string"/>

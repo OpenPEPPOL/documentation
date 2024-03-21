@@ -1,5 +1,8 @@
 # OpenPEPPOL Documentation
 
+# THIS REPOSITORY IS OUTDATED - DON'T USE IT
+# IT IS HERE FOR HISTORICAL REASONS ONLY
+
 This is the repository for PEPPOL documentation.
 
 This is based on Revision 6153 of the previous Joinup SVN - no history!
